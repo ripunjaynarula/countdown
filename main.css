@@ -67,7 +67,8 @@ header .content h2 {
   color: #FFF;
   font-size: 42px;
   font-weight: 500;
-  margin: 30px 0px;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 @media screen and (min-width: 480px) {
   header .content h2 {
@@ -94,14 +95,20 @@ header .content .countdown {
   font-size: 36px;
   font-weight: 400;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 400px) {
   header .content .countdown {
     font-size: 42px;
+  }
+  #weds{
+    margin-bottom: -22%;
   }
 }
 @media screen and (min-width: 768px) {
   header .content .countdown {
     font-size: 56px;
+  }
+  #weds{
+    margin-bottom: -15%;margin-top:-22%
   }
 }
 @media screen and (min-width: 1024px) {
